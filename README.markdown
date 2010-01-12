@@ -5,11 +5,11 @@
     gem install jekyll
     gem install heroku
 
-## Runnnig
+## Running Locally
 
-   jekyll --server --auto
+    jekyll --server --auto
 
-Browse to http://localhost:4000
+Browse: to http://localhost:4000
 
 ## Deployment
 
@@ -17,4 +17,4 @@ Browse to http://localhost:4000
 
     git push heroku master
 
-    http://coderetreat.heroku.com
+Browse: http://coderetreat.heroku.com
