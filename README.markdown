@@ -13,6 +13,8 @@ Browse to http://localhost:4000
 
 ## Deployment
 
-### production 
+### Staging 
 
     git push heroku master
+
+    http://coderetreat.heroku.com
