@@ -1,0 +1,126 @@
+html {
+  background: #fff url(../images/trail.jpg) no-repeat 0 0 ;
+  
+}
+body {
+  font-family: 'myriad pro', sans-serif;
+  margin: 1em auto;
+  width: 960px;
+  font-size: 120%;
+  color:#262626;
+  
+}
+h1 {
+  font-style: italic;
+}
+h2 {
+  
+}
+h3 {
+  
+}
+p {
+  
+}
+a {
+  
+}
+ul {
+  
+}
+li {
+  
+}
+header {
+  -moz-border-radius-bottomleft:0.3em;
+  -moz-border-radius-bottomright:0.3em;
+  -moz-border-radius-topleft:0.3em;
+  -moz-border-radius-topright:0.3em;
+  background:#FFFFFF none repeat scroll 0 0;
+  display:block;
+  opacity:0.9;
+  padding: 0.4em 0.6em;
+
+}
+header h1 {
+  margin-bottom: 0;
+}
+header h4 {
+
+  margin-top: 0;
+}
+header h2 {
+  border: 1px solid #262626;
+
+}
+nav {
+  clear: both;
+}
+aside {
+  -moz-border-radius-bottomleft:0.3em;
+  -moz-border-radius-bottomright:0.3em;
+  -moz-border-radius-topleft:0.3em;
+  -moz-border-radius-topright:0.3em;
+  background:#FFFFFF none repeat scroll 0 0;
+  color:#262626;
+  display:block;
+  opacity:0.9;
+  padding: 0.4em 0.6em;
+  float: right;
+  width: 20%;
+}
+article {
+  -moz-border-radius-bottomleft:0.3em;
+  -moz-border-radius-bottomright:0.3em;
+  -moz-border-radius-topleft:0.3em;
+  -moz-border-radius-topright:0.3em;
+  background:#FFFFFF none repeat scroll 0 0;
+  color:#262626;
+  display:block;
+  opacity:0.9;
+  padding: 0.4em 0.6em;
+  float: left;
+  margin: 1em 0;
+  width: 70%;
+}
+section {
+  float: left;
+  width: 50%;
+  
+}
+section p {
+ padding-right: 1em;
+}
+
+footer {
+  -moz-border-radius-bottomleft:0.3em;
+  -moz-border-radius-bottomright:0.3em;
+  -moz-border-radius-topleft:0.3em;
+  -moz-border-radius-topright:0.3em;
+  background:#FFFFFF none repeat scroll 0 0;
+  color:#262626;
+  display:block;
+  opacity:0.9;
+  padding: 0.4em 0.6em;
+  clear: both;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  -moz-border-radius-bottomleft:0.3em;
+  -moz-border-radius-bottomright:0.3em;
+  -moz-border-radius-topleft:0.3em;
+  -moz-border-radius-topright:0.3em;
+  background:#FFFFFF none repeat scroll 0 0;
+  color:#262626;
+  display: inline;
+  margin-bottom: 0.5em;
+  opacity: 0.9;
+  padding: 0.4em 0.6em;
+  text-decoration:none;
+}
+nav a:hover {
+  opacity: 1;
+  
+}
