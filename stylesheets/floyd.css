@@ -25,6 +25,12 @@ p {
 a {
   
 }
+a img{
+  border: none;
+}
+img {
+  
+}
 ul {
   
 }
@@ -41,6 +47,11 @@ header {
   opacity:0.9;
   padding: 0.4em 0.6em;
 
+}
+header span {
+  float: right;
+  font-size: 1.4em;
+  padding: 1.5em 1em;
 }
 header h1 {
   margin-bottom: 0;
@@ -68,6 +79,7 @@ aside {
   padding: 0.4em 0.6em;
   float: right;
   width: 20%;
+  margin: 1em 0;
 }
 article {
   -moz-border-radius-bottomleft:0.3em;
@@ -93,21 +105,13 @@ section p {
 }
 
 footer {
-  -moz-border-radius-bottomleft:0.3em;
-  -moz-border-radius-bottomright:0.3em;
-  -moz-border-radius-topleft:0.3em;
-  -moz-border-radius-topright:0.3em;
-  background:#FFFFFF none repeat scroll 0 0;
-  color:#262626;
   display:block;
-  opacity:0.9;
-  padding: 0.4em 0.6em;
   clear: both;
 }
 nav li {
   display: inline;
 }
-nav a {
+footer a {
   -moz-border-radius-bottomleft:0.3em;
   -moz-border-radius-bottomright:0.3em;
   -moz-border-radius-topleft:0.3em;
@@ -120,7 +124,7 @@ nav a {
   padding: 0.4em 0.6em;
   text-decoration:none;
 }
-nav a:hover {
+footer a:hover {
   opacity: 1;
   
 }
