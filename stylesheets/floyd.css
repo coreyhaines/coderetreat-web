@@ -23,7 +23,7 @@ p {
   
 }
 a {
-  
+  color: #4f8b0e;
 }
 a img{
   border: none;
@@ -48,10 +48,15 @@ header {
   padding: 0.4em 0.6em;
 
 }
+header a {
+  float: right;
+  padding: 0 .7em;
+}
 header span {
+  clear: right;
   float: right;
   font-size: 1.4em;
-  padding: 1.5em 1em;
+  padding: 1em 1.5em;
 }
 header h1 {
   margin-bottom: 0;

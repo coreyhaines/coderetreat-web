@@ -6,7 +6,7 @@ html {
   text-align: center;
   width: 1000px;
   color: #23fe00;
-  font-size: 110%;
+  font-size: 160%;
 }
 body {
   text-align: left;
@@ -17,31 +17,46 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #23fe00;
   text-transform: lowercase;
-  
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
 }
 h2 {
-  color: #CCBA7A;  
+}
+div#content h2 {
+  margin-bottom: 0;
+  margin-top: 1em;
+  
+}
+h3 {
+  
+}
+h4 {
+  margin-bottom: 0;
 }
 p {
-  font-size: 2em;
 }
 a {
   color: #006bfd;
   text-decoration: none;
 }
-a:hover, a:focus{
+a:hover, a:active{
   color: #006bfd;
   text-decoration: underline;
 }
+div#content a {
+  font-size: 1.3em;
+}
 a#nav-link{
-  font-size: 1.5em;
 }
 ol {
-  font-size: 2em;
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+}
+ul {
 }
 #header {
   background: #070b1d url(../images/c0d3r3tr3at.gif) no-repeat 0 0;
