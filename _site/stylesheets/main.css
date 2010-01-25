@@ -50,6 +50,9 @@ div#content a {
 }
 a#nav-link{
 }
+div.intro {
+  margin-left: 16px;
+}
 ol {
   list-style-type: none;
   margin: 0;
@@ -67,7 +70,7 @@ ul {
   text-indent: -9999px;
 }
 #content {
-  margin: 3em 1.5em;
+  margin: 0em 1.5em;
 }
 #tourdates {
   text-transform: uppercase;
