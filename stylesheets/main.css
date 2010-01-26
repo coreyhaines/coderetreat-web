@@ -4,11 +4,12 @@ html {
   height:100%;
   min-height: 600px;
   text-align: center;
-  width: 1000px;
+  width: 800px;
   color: #23fe00;
   font-size: 160%;
 }
 body {
+  margin: 0 auto;
   text-align: left;
   background-color: #070b1d;
   color: #B37636;
@@ -55,7 +56,7 @@ div#content a {
 a#nav-link{
 }
 div.intro {
-  margin-left: 16px;
+  margin: 0em 1.5em;
   margin-top: 1.5em;
 }
 ol {
