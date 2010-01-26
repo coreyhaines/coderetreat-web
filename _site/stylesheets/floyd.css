@@ -106,9 +106,12 @@ section {
   
 }
 section p {
- padding-right: 1em;
+  padding-right: 1em;
 }
-
+img#entryway-logo {
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
 footer {
   display:block;
   clear: both;
