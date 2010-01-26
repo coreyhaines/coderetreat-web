@@ -13,35 +13,15 @@ body {
 h1 {
   font-style: italic;
 }
-h2 {
-  
-}
-h3 {
-  
-}
-p {
-  
-}
 a {
   color: #4f8b0e;
 }
 a img{
   border: none;
 }
-img {
-  
-}
-ul {
-  
-}
-li {
-  
-}
 header {
-  -moz-border-radius-bottomleft:0.3em;
-  -moz-border-radius-bottomright:0.3em;
-  -moz-border-radius-topleft:0.3em;
-  -moz-border-radius-topright:0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
   background:#FFFFFF none repeat scroll 0 0;
   display:block;
   opacity:0.9;
@@ -73,10 +53,8 @@ nav {
   clear: both;
 }
 aside {
-  -moz-border-radius-bottomleft:0.3em;
-  -moz-border-radius-bottomright:0.3em;
-  -moz-border-radius-topleft:0.3em;
-  -moz-border-radius-topright:0.3em;
+  -moz-border-radius:0.3em;
+  -webkit-border-radius: 0.3em;
   background:#FFFFFF none repeat scroll 0 0;
   color:#262626;
   display:block;
@@ -87,10 +65,8 @@ aside {
   margin: 1em 0;
 }
 article {
-  -moz-border-radius-bottomleft:0.3em;
-  -moz-border-radius-bottomright:0.3em;
-  -moz-border-radius-topleft:0.3em;
-  -moz-border-radius-topright:0.3em;
+  -moz-border-radius:0.3em;
+  -webkit-border-radius: 0.3em;
   background:#FFFFFF none repeat scroll 0 0;
   color:#262626;
   display:block;
@@ -103,14 +79,13 @@ article {
 section {
   float: left;
   width: 50%;
-  
 }
 section p {
   padding-right: 1em;
 }
 img#entryway-logo {
   padding-left: 1.5em;
-  padding-top: 1em;
+  padding-bottom: 1em;
 }
 footer {
   display:block;
@@ -120,10 +95,8 @@ nav li {
   display: inline;
 }
 footer a {
-  -moz-border-radius-bottomleft:0.3em;
-  -moz-border-radius-bottomright:0.3em;
-  -moz-border-radius-topleft:0.3em;
-  -moz-border-radius-topright:0.3em;
+  -moz-border-radius:0.3em;
+  -webkit-border-radius: 0.3em;
   background:#FFFFFF none repeat scroll 0 0;
   color:#262626;
   display: inline;
