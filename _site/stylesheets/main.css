@@ -79,6 +79,9 @@ ul {
 #tourdates {
   text-transform: uppercase;
 }
+a.shove {
+  float: right;
+}
 #footer {
   min-height: 150px;
   margin-left: 560px;
