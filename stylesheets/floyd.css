@@ -13,6 +13,9 @@ body {
 h1 {
   font-style: italic;
 }
+h2#catering {
+  margin-top: 2.3em;
+}
 a {
   color: #4f8b0e;
 }
