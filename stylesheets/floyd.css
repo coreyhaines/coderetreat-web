@@ -90,6 +90,11 @@ img#entryway-logo {
   padding-left: 1.5em;
   padding-bottom: 1em;
 }
+img#ruby {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
 footer {
   display: block;
   clear: both;
