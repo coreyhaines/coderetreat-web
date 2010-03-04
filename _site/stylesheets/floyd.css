@@ -42,15 +42,13 @@ header span {
   padding: 1em 1.5em;
 }
 header h1 {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 header h4 {
-
   margin-top: 0;
 }
 header h2 {
   border: 1px solid #262626;
-
 }
 nav {
   clear: both;
@@ -86,8 +84,20 @@ section {
 section p {
   padding-right: 1em;
 }
-img#entryway-logo {
+img#sponsor-logo-1 {
   padding-left: 1.5em;
+  padding-bottom: 1em;
+}
+img#sponsor-logo-2 {
+  padding-left: 0.7em;
+  padding-bottom: 1em;
+}
+img#catering-logo-1 {
+  padding-left: 2.3em;
+  padding-bottom: 1em;
+}
+img#catering-logo-2 {
+  padding-left: 2.0em;
   padding-bottom: 1em;
 }
 img#ruby {
