@@ -125,3 +125,18 @@ ul#nav li a:hover, ul#nav li a#active {
   color: #1b120d;
   background-color: #1b120d;
 }
+
+#twtr-widget-1 .twtr-hd {
+  display: none;
+}
+
+.twtr-widget .twtr-tweet {
+  border-bottom: 1px solid #1b120d !important;
+  margin-bottom: 6px;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+}

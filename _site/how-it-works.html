@@ -148,7 +148,38 @@
       </div>
       <div class="section">
         <h2>Tweets</h2>
-        <p>feed info</p>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+          new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 3,
+            interval: 6000,
+            width: 274,
+            height: 'auto',
+            theme: {
+              shell: {
+                background: '#312118',
+                color: '#b16d2a'
+              },
+              tweets: {
+                background: '#312118',
+                color: '#b16d2a',
+                links: '#e68e36'
+              }
+            },
+            features: {
+              scrollbar: false,
+              loop: false,
+              live: true,
+              hashtags: true,
+              timestamp: true,
+              avatars: false,
+              behavior: 'all'
+            }
+          }).render().setUser('coderetreat').start();
+        </script>
+
       </div>
       <div class="section last">
         <h2>Sponsors</h2>
