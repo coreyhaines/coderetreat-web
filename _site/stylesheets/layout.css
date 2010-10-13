@@ -42,6 +42,9 @@ body {
   position:absolute;
   right: 0px;
 }
+#contact a#contact-btn.open {
+  background: url(/images/bg-contact-btn-up.png) no-repeat 0 0;
+}
 #contact #contact-info {
   background-color: #312118;
   padding: 5px;
