@@ -23,18 +23,17 @@
       <h1><a href="/">Code Retreat w/ Corey Haines -
         honing the craft together</a></h1>
       <div id="contact">
-        <div id="contact-info" style="display:none">
-          <h2>Contact Info</h2>
-          <ul id='hcard-Corey-Haines' class='vcard'>
-            <li class='name'>name: <span class='fn'>Corey Haines</span></li>
-            <li>email: <a href="mailto:coreyhaines@gmail.com" class='email'>coreyhaines@gmail.com</a></li>
-            <li>twitter: <a href="http://www.twitter.com/coreyhaines" class='twitter'>coreyhaines</a></li>
-            <li>skype: <a href="skype:coreyhaines?call" onclick="return skypeCheck();" class='skype'>coreyhaines</a>
-            <li>IM: <span class='im'>coreyhaines@gmail.com</span></li>
-            <li>sms/voice: <span class='phone'>218.42COREY</span> (26739)</li>
-          </ul>
-        </div><!--/contact-info-->
         <a id="contact-btn">Contact</a>
+        <div id="contact-info" style="display:none">
+           <h2>Contact Info</h2>
+           <ul>
+             <li>email:<a href="mailto:coreyhaines@gmail.com">coreyhaines@gmail.com</a></li>
+             <li>twitter:<a href="#">coreyhaines</a></li>
+             <li>skype:<a href="#">coreyhaines</a></li>
+             <li>IM:<a href="#">coreyhaines@gmail.com</a></li>
+             <li>sms/voice:<a href="#">218.42COREY (26739)</a></li>
+           </ul>
+        </div><!--/contact-info-->
       </div><!--/contact-->
     </div><!--/header-->
     <div id="sidebar">
@@ -55,6 +54,14 @@
           <img src="/images/img-2.jpg"/>
           <img src="/images/img-3.jpg"/>
           <img src="/images/img-4.jpg"/>
+          <img src="/images/img-5.jpg"/>
+          <img src="/images/img-6.jpg"/>
+          <img src="/images/img-7.jpg"/>
+          <img src="/images/img-8.jpg"/>
+          <img src="/images/img-9.jpg"/>
+          <img src="/images/img-10.jpg"/>
+          <img src="/images/img-11.jpg"/>
+          <img src="/images/img-12.jpg"/>
         </div>
       </div><!--/slideshow-->
       <div id="content">
@@ -212,16 +219,6 @@
   $(function() {
     Galleria.loadTheme('/javascripts/galleria/src/themes/dots/galleria.dots.js');
     $('.images').galleria();
-  });
-  $(function() {
-    var contact = $("#contact"),
-        info = contact.find("#contact-info"),
-        button = contact.find("#contact-btn");
-
-    button.click(function(){
-      info.slideToggle();
-      button.toggleClass("open");
-    });
   });
 </script>
 </body>
