@@ -49,9 +49,12 @@
     </div><!--/sidebar-->
     <div id="main">
       <div id="slideshow">
-        <ul>
-          <li><img src="/images/img-1.jpg"/></li>
-        </ul>
+        <div class="images">
+          <img src="/images/img-1.jpg"/>
+          <img src="/images/img-2.jpg"/>
+          <img src="/images/img-3.jpg"/>
+          <img src="/images/img-4.jpg"/>
+        </div>
       </div><!--/slideshow-->
       <div id="content">
         {{ content }}
@@ -125,7 +128,10 @@
     $("#tripit-badge *").removeAttr("style");
     $("#tripit-badge img").replaceWith("Tripit - ");
   });
-
+  $(function() {
+    Galleria.loadTheme('/javascripts/galleria/src/themes/dots/galleria.dots.js');
+    $('.images').galleria();
+  });
 </script>
 </body>
 

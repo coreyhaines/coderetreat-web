@@ -19,20 +19,21 @@ Galleria.addTheme({
         thumbnails: 'empty',
         carousel: false,
         image_crop: false,
-        autoplay: true
+        autoplay: true,
+        height: 300
     },
     init: function(options) {
-        this.$('thumbnails').find('.galleria-image').css('opacity',0.5).hover(function() {
-            $(this).fadeTo(200,1);
+        this.$('thumbnails').find('.galleria-image').css('background-position','0 -9px').hover(function() {
+            $(this).css('background-position','0 0');
         }, function() {
-            $(this).not('.active').fadeTo(200,.5);
+            $(this).not('.active').css('background-position','0 -9px');
         });
         this.$('info').insertAfter(this.target);
         this.bind(Galleria.LOADSTART, function(e) {
             if (!e.cached) {
                 this.$('loader').show().fadeTo(200, .8);
             }
-            $(e.thumbTarget).parent().stop().css('opacity',1).siblings('.active').css('opacity',0.5)
+            $(e.thumbTarget).parent().stop().css('background-position','0px 0px').siblings('.active').css('background-position','0px -9px')
         });
         this.bind(Galleria.LOADFINISH, function(e) {
             this.$('loader').fadeOut(200);
