@@ -91,7 +91,7 @@ ul#nav li a:hover, ul#nav li a#active {
   min-height: 200px;
   width: 100%;
   float: left;
-  
+
 }
 .container-wide {
   width: 1000px;
@@ -107,6 +107,7 @@ ul#nav li a:hover, ul#nav li a#active {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  color: #b16d2a;
 }
 #footer .last {
   margin-right: 0;
@@ -114,8 +115,13 @@ ul#nav li a:hover, ul#nav li a#active {
 #footer h2 {
 }
 #footer p {
-  color: #b16d2a;
 }
 #footer a {
   color: #e68d36;
+}
+#tripit-badge #tripit-badge-inner-div hr {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #1b120d;
+  background-color: #1b120d;
 }
