@@ -13,3 +13,6 @@ get '/' do
   File.read('_site/index.html')
 end
 
+get '/about' do
+  File.read('_site/about.html')
+end
