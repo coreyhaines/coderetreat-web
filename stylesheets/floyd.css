@@ -1,6 +1,6 @@
 html {
   background: #fff url(../images/floyd/trail.jpg) no-repeat 0 0 ;
-  
+
 }
 body {
   font-family: 'myriad pro', sans-serif;
@@ -8,7 +8,7 @@ body {
   width: 960px;
   font-size: 120%;
   color:#262626;
-  
+
 }
 h1 {
   font-style: italic;
@@ -93,7 +93,7 @@ img#sponsor-logo-2 {
   padding-bottom: 1em;
 }
 img#sponsor-logo-3 {
-  padding-left: 0.7em;
+  padding-left: 2.1em;
   padding-bottom: 0.8em;
 }
 img#sponsor-logo-4 {
@@ -141,5 +141,5 @@ footer a {
 }
 footer a:hover {
   opacity: 1;
-  
+
 }
