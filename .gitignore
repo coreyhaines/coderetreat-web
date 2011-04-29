@@ -16,5 +16,5 @@ src/*
 .hgignore
 .hg/*
 .svn/*
-.rvmrc
 _site/Gemfile
+_site/Gemfile.lock
