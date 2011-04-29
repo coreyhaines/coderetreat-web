@@ -18,3 +18,4 @@ src/*
 .svn/*
 _site/Gemfile
 _site/Gemfile.lock
+_site/config.ru
