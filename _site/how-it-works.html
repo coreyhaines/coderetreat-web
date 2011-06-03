@@ -162,53 +162,46 @@
       <div class="section">
         <h2>Travels</h2>
         <div id="tripit-badge">
-          <script type="text/javascript" src="http://www.tripit.com/account/badge/id/744241BA3A2DFA4290D97D836D3A7902/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript>
+          <!-- <script type="text/javascript" src="http://www.tripit.com/account/badge/id/744241BA3A2DFA4290D97D836D3A7902/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript> -->
         </div>
       </div>
       <div class="section">
         <h2>Tweets</h2>
-        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-        <script>
-          new TWTR.Widget({
-            version: 2,
-            type: 'profile',
-            rpp: 3,
-            interval: 6000,
-            width: 274,
-            height: 'auto',
-            theme: {
-              shell: {
-                background: '#312118',
-                color: '#b16d2a'
-              },
-              tweets: {
-                background: '#312118',
-                color: '#b16d2a',
-                links: '#e68e36'
-              }
-            },
-            features: {
-              scrollbar: false,
-              loop: false,
-              live: true,
-              hashtags: true,
-              timestamp: true,
-              avatars: false,
-              behavior: 'all'
-            }
-          }).render().setUser('coderetreat').start();
-        </script>
+        <!-- <script src="http://widgets.twimg.com/j/2/widget.js"></script> -->
+        <!-- <script> -->
+          <!-- new TWTR.Widget({ -->
+            <!-- version: 2, -->
+            <!-- type: 'profile', -->
+            <!-- rpp: 3, -->
+            <!-- interval: 6000, -->
+            <!-- width: 274, -->
+            <!-- height: 'auto', -->
+            <!-- theme: { -->
+              <!-- shell: { -->
+                <!-- background: '#312118', -->
+                <!-- color: '#b16d2a' -->
+              <!-- }, -->
+              <!-- tweets: { -->
+                <!-- background: '#312118', -->
+                <!-- color: '#b16d2a', -->
+                <!-- links: '#e68e36' -->
+              <!-- } -->
+            <!-- }, -->
+            <!-- features: { -->
+              <!-- scrollbar: false, -->
+              <!-- loop: false, -->
+              <!-- live: true, -->
+              <!-- hashtags: true, -->
+              <!-- timestamp: true, -->
+              <!-- avatars: false, -->
+              <!-- behavior: 'all' -->
+            <!-- } -->
+          <!-- }).render().setUser('coderetreat').start(); -->
+        <!-- </script> -->
 
       </div>
       <div class="section last">
-        <h2>Sponsors</h2>
-        <p>Thank you ...</p>
-        <a href="http://www.engineyard.com/"><img src="/images/logo-engineyard.png" alt="engine yard logo"/></a>
-        <a href="#"><img src="/images/logo-entryway.png" alt="engine yard logo"/></a>
-        <a href="#"><img src="/images/logo-elabs.png" alt="engine yard logo"/></a>
-        <a href="#"><img src="/images/logo-heroku.png" alt="engine yard logo"/></a>
-        <a href="#"><img src="/images/logo-intridea.png" alt="engine yard logo"/></a>
-        <a href="#"><img src="/images/logo-relevance.png" alt="engine yard logo"/></a>
+        <h2>Twitter Mentions</h2>
       </div>
       <p>site donated <a href="#">entryway</a></p>
     </div><!--/container-->
@@ -216,14 +209,14 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
   <script type="text/javascript" src="/javascripts/analytics.js"></script>
-  <script type="text/javascript" src="/javascripts/galleria.js"></script>
+  <script type="text/javascript" src="/javascripts/galleria/galleria.js"></script>
 <script>
   $(function() {
     $("#tripit-badge *").removeAttr("style");
     $("#tripit-badge img").replaceWith("Tripit - ");
   });
   $(function() {
-    Galleria.loadTheme('/javascripts/galleria/src/themes/dots/galleria.dots.js');
+    Galleria.loadTheme('/javascripts/galleria/themes/dots/galleria.dots.js');
     $('.images').galleria();
   });
 </script>
