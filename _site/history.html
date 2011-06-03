@@ -39,37 +39,21 @@
     </div><!--/header-->
     <div id="sidebar">
       <ul id="nav">
-        <li><a {% if page.page_name == "home" %} class="current_page" {% endif %} href="/">Home</a></li>
-        <li><a {% if page.page_name == "about" %} class="current_page" {% endif %} href="/about.html">About</a></li>
-        <!-- <li><a {% if page.page_name == "agenda" %} class="current_page" {% endif %} href="/agenda.html">Agenda</a></li> -->
-        <li><a {% if page.page_name == "gol" %} class="current_page" {% endif %} href="/gol.html">Game of Life</a></li>
-        <li><a {% if page.page_name == "hosting" %} class="current_page" {% endif %} href="/hosting.html">Hosting</a></li>
-        <li><a {% if page.page_name == "training" %} class="current_page" {% endif %} href="/training.html">Training</a></li>
-        <li><a {% if page.page_name == "history" %} class="current_page" {% endif %} href="/history.html">History</a></li>
-        <li><a {% if page.page_name == "pictures" %} class="current_page" {% endif %} href="/pictures.html">Pictures</a></li>
+        <li><a  href="/">Home</a></li>
+        <li><a  href="/about.html">About</a></li>
+        <!-- <li><a  href="/agenda.html">Agenda</a></li> -->
+        <li><a  href="/gol.html">Game of Life</a></li>
+        <li><a  href="/hosting.html">Hosting</a></li>
+        <li><a  href="/training.html">Training</a></li>
+        <li><a  class="current_page"  href="/history.html">History</a></li>
+        <li><a  href="/pictures.html">Pictures</a></li>
       </ul>
     </div><!--/sidebar-->
     <div id="main">
-      {% if page.page_name == "home" %}
-        <div id="slideshow">
-          <div class="images">
-            <img src="/images/img-1.jpg"/>
-            <!-- <img src="/images/img-2.jpg"/> -->
-            <!-- <img src="/images/img-3.jpg"/> -->
-            <!-- <img src="/images/img-4.jpg"/> -->
-            <!-- <img src="/images/img-5.jpg"/> -->
-            <!-- <img src="/images/img-6.jpg"/> -->
-            <!-- <img src="/images/img-7.jpg"/> -->
-            <!-- <img src="/images/img-8.jpg"/> -->
-            <!-- <img src="/images/img-9.jpg"/> -->
-            <!-- <img src="/images/img-10.jpg"/> -->
-            <!-- <img src="/images/img-11.jpg"/> -->
-            <!-- <img src="/images/img-12.jpg"/> -->
-          </div>
-        </div><!--/slideshow-->
-      {% endif %}
+      
       <div id="content">
-        {{ content }}
+        <h2>History</h2>
+
       </div><!--/content-->
     </div><!--/main-->
   </div><!--/container-->
