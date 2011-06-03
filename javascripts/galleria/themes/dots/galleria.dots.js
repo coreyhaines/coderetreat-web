@@ -12,7 +12,7 @@ Galleria.addTheme({
     name: 'dots',
     author: 'Galleria',
     version: '1.1',
-    // css: 'galleria.dots.css',
+    css: 'galleria.dots.css',
     defaults: {
         transition: 'slide',
         transition_speed: 500,
