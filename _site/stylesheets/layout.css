@@ -2,8 +2,11 @@ html {
   background: #1b120d;
 }
 body {
-  background: #995e24;
+  /* background: #995e24; */
   margin: 0 auto;
+}
+object {
+  display: none;
 }
 .container {
   width: 960px;
@@ -17,6 +20,10 @@ body {
 #header a#logo{
   float: left;
 }
+#header #logo img {
+  border: 0;
+}
+
 #header h1 {
   float: left;
   background: url(/images/logo.png) no-repeat 0 0;
