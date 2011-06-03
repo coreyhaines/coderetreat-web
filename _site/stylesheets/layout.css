@@ -81,7 +81,12 @@ ul#nav li a {
   padding-left: 20px;
   color: #fffacb;
 }
-ul#nav li a:hover, ul#nav li a.current_page {
+ul#nav li a:hover {
+  text-decoration: none;
+  color: #312118;
+}
+
+ul#nav li a.current_page {
   text-decoration: none;
   color: #312118;
   background: url(/images/bg-nav-active.png) no-repeat 0 0;
