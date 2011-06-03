@@ -13,7 +13,7 @@
 @font-face {
 	font-family: 'OrbitronMedium';
 	src: url('/fonts/orbitron-medium-webfont.eot');
-	src: local('☺'), url('orbitron-medium-webfont.woff') format('woff'), url('orbitron-medium-webfont.ttf') format('truetype'), url('orbitron-medium-webfont.svg#webfont5FiGFJOa') format('svg');
+	src: local('☺'), url('/fonts/orbitron-medium-webfont.woff') format('woff'), url('orbitron-medium-webfont.ttf') format('truetype'), url('orbitron-medium-webfont.svg#webfont5FiGFJOa') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
