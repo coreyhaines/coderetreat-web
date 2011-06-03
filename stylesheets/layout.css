@@ -42,6 +42,7 @@ body {
   position:absolute;
   right: 0px;
 }
+
 #contact a#contact-btn.open {
   background: url(/images/bg-contact-btn-up.png) no-repeat 0 0;
 }
@@ -49,12 +50,19 @@ body {
   background-color: #312118;
   padding: 5px;
   color: #fffacb;
+  padding-top: 25px;
+  -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 2.5);
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 2.5);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 2.5);
+:
 }
 #contact #contact-info h2 {
   margin-bottom: .25em;
 }
 #contact #contact-info ul {
   list-style: none;
+  padding: 0px;
+  padding-left: 20px;
 }
 #contact #contact-info a:hover {
   text-decoration: underline;
