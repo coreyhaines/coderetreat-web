@@ -2,7 +2,7 @@ body {
   font-family: 'Geneva', Arial, sans-serif ;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'OrbitronMedium';
+  /* font-family: 'OrbitronMedium'; */
   color: #e68d36;
   text-transform: lowercase;
 }
@@ -15,10 +15,10 @@ h2 {
 div#content h2 {
   margin-bottom: 0;
   margin-top: 1em;
-  
+
 }
 h3 {
-  
+
 }
 h4 {
   margin-bottom: 0;
