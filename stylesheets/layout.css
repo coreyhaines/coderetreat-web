@@ -2,7 +2,7 @@ html {
   background: #1b120d;
 }
 body {
-  /* background: #995e24; */
+  background: #995e24;
   margin: 0 auto;
 }
 object {
@@ -14,7 +14,7 @@ object {
 }
 #header {
   float: left;
-  width: 100%;
+  width: 921px;
   position: relative;
 }
 #header a#logo{
@@ -24,14 +24,20 @@ object {
   border: 0;
 }
 
+#header {
+  background: #995e24;
+}
+
 #header h1 {
   float: left;
   background: url(/images/logo.png) no-repeat 0 0;
   width: 515px;
   height: 88px;
   text-indent: -9999px;
-  margin: 2em 0;
+  margin-top: 80px;
+  /* margin: 2em 0; */
 }
+
 #contact {
   position:absolute;
   right: 0px;
@@ -84,7 +90,7 @@ ul#nav {
   background: url(/images/bg-nav.jpg) no-repeat 0 0;
   width: 216px;
   height: 381px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 10px 0 10px 10px;
 }
 ul#nav li {
@@ -110,7 +116,7 @@ ul#nav li a.current_page {
   float: left;
   width: 680px;
   margin-left: 20px;
-  margin-top: -50px;
+  margin-top: 16px;
 }
 #slideshow {
   background-color: #312118;
