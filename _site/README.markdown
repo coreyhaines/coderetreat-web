@@ -7,10 +7,9 @@ This is a jekyll based site running as a Sinatra app (for heroku deployment and 
 * Jekyll: [http://github.com/mojombo/jekyll](http://github.com/mojombo/jekyll)
 * Sinatra Setup: [http://jstorimer.com/2009/12/29/jekyll-on-heroku.html](http://jstorimer.com/2009/12/29/jekyll-on-heroku.html)
 
-## Setup 
+## Setup
 
-    gem install jekyll
-    gem install heroku
+    bundle install
 
 ## Running Locally
 
@@ -20,7 +19,7 @@ Browse: to http://localhost:4000
 
 ## Deployment
 
-### Staging 
+### Staging
 
     git push heroku master
 
