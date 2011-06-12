@@ -12,6 +12,7 @@ object {
   width: 960px;
   margin: 0 auto;
 }
+
 #header {
   float: left;
   width: 921px;
@@ -170,6 +171,11 @@ ul#nav li a.current_page {
 #footer a {
   color: #e68d36;
 }
+
+#footer .sponsor_footer {
+  color: #E68D36;
+}
+
 #tripit-badge #tripit-badge-inner-div hr {
   margin-bottom: 15px;
   margin-top: 5px;
