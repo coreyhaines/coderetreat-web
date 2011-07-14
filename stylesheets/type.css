@@ -39,3 +39,26 @@ ol {
 }
 ul {
 }
+
+blockquote div.source {
+  text-align: right;
+}
+.pullquote {
+  width: 600px;
+  margin: 5px;
+  font-style: italic;
+  text-indent: -1.3em;
+}
+
+.pullquote:before {
+  content: '\201C';
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.pullquote:after {
+  content: '\201D';
+  font-size: xx-large;
+  font-weight: bold;
+}
+
