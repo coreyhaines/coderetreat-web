@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'sinatra'
-gem "rack-jekyll"
+gem 'sinatra', '1.2.3'
+gem "rack-jekyll", '0.3.5'
 
 gem 'heroku', :group => [:development]
 gem 'grb', :group => [:development]
