@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.center {
+  text-align: center;
+}
+
 /* #header { */
   /* float: left; */
   /* width: 921px; */
