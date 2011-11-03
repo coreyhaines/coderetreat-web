@@ -151,6 +151,18 @@ ul#nav li a.current_page {
 #slideshow ul li{
   list-style-type: none;
 }
+
+#announcements {
+  font-size: 1.25em;
+  font-weight: bold;
+  background: #fffacb;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  margin-bottom: 20px;
+}
+
 #content {
   background: #fffacb url(/images/bg-content-btm.jpg) repeat-x bottom left;
   padding: 20px 20px 40px 20px;
@@ -216,4 +228,3 @@ ul#nav li a.current_page {
   padding-right: 0px !important;
   padding-top: 0px !important;
 }
-

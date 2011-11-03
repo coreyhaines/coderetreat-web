@@ -15,23 +15,24 @@
 /* #header a#logo{ */
   /* float: left; */
 /* } */
-/* #header #logo img { */
-  /* border: 0; */
-/* } */
+#header #logo img {
+   border: 0;
+   margin-top: 15px;
+}
 
 /* #header { */
   /* background: #995e24; */
 /* } */
 
-/* #header h1 { */
-  /* float: left; */
-  /* background: url(/images/logo.png) no-repeat 0 0; */
-  /* width: 515px; */
-  /* height: 88px; */
-  /* text-indent: -9999px; */
-  /* margin-top: 80px; */
-  /* margin: 2em 0; */
-/* } */
+#header h1 {
+   float: left;
+   background: url(/images/gdcr-logo.png) no-repeat 0 0;
+   width: 532px;
+   height: 115px;
+   text-indent: -9999px;
+   margin-top: 80px;
+   margin: 1em 0 1em 0.5em;
+}
 
 /* #header .call-to-action { */
   /* position: absolute; */
