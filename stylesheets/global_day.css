@@ -34,6 +34,36 @@
    margin: 1em 0 1em 0.5em;
 }
 
+#sponsor-sidebar {
+  float: left;
+  width: 200px;
+  /* min-height: 381px; */
+  margin: 20px 0px 0px 20px;
+  padding: 20px 0 40px 20px;
+  background: #fffacb url(/images/bg-content-btm.jpg) repeat-x bottom left;
+}
+ul#sponsors {
+  /* background-color: #d73513; */
+  width: 216px;
+  padding: 0;
+}
+ul#sponsors li {
+  list-style-type: none;
+  font-size: 1.3em;
+  line-height: 1.8;
+}
+/* ul#sponsors li a {
+  padding-left: 20px;
+  color: #fffacb;
+}
+ul#sponsors li a:hover {
+  text-decoration: none;
+  color: #312118;
+}
+*/
+
+
+
 /* #header .call-to-action { */
   /* position: absolute; */
   /* right: 5px; */
@@ -130,8 +160,8 @@
   /* } */
 .global_day #main {
   float: left;
-  width: 880px;
-  margin-left: 20px;
+  width: 680px;
+  margin-left: 0px;
   margin-top: 16px;
 }
 /* #slideshow { */
