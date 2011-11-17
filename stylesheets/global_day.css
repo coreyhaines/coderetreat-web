@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+img {
+  border: none;
+}
+
 .global_day #main {
   float: left;
   width: 684px;
