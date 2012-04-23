@@ -1,11 +1,12 @@
-source 'http://rubygems.org'
+source :rubygems
 
-gem 'sinatra', '1.2.3'
-gem "rack-jekyll", '0.3.5'
+gem 'foreman'
+gem 'rack'
+gem 'thin'
+gem 'serve'
 
-gem 'heroku', :group => [:development]
-gem 'grb', :group => [:development]
-gem 'jekyll', :group => [:development, :test]
-
+group :development do
+  gem 'heroku'
+end
 
 
