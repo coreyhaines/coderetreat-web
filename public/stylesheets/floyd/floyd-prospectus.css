@@ -1,6 +1,6 @@
 html {
-  background: #fff url(../images/floyd/trail.jpg) no-repeat 0 0 ;
-  
+  background: #fff url(/images/floyd/furthur.jpg) no-repeat 0 0 ;
+
 }
 body {
   font-family: 'myriad pro', sans-serif;
@@ -8,7 +8,7 @@ body {
   width: 960px;
   font-size: 110%;
   color:#262626;
-  
+
 }
 h1 {
   font-style: italic;
@@ -136,5 +136,5 @@ footer a {
 }
 footer a:hover {
   opacity: 1;
-  
+
 }
