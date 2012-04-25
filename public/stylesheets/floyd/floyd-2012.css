@@ -88,11 +88,11 @@ img#sponsor-logo-1 {
   padding-bottom: 0.8em;
 }
 img#sponsor-logo-2 {
-  padding-left: 2.7em;
-  padding-bottom: 1em;
+  padding-left: 1.0em;
+  padding-bottom: 0.8em;
 }
 img#sponsor-logo-3 {
-  padding-left: 2.1em;
+  padding-left: 1.0em;
   padding-bottom: 0.8em;
 }
 img#sponsor-logo-4 {
@@ -109,23 +109,42 @@ img#catering-logo-1 {
 }
 img#catering-logo-2 {
   padding-left: 2.0em;
-  padding-bottom: 0.0em;
+  padding-bottom: 1.0em;
 }
 img#catering-logo-3 {
-  padding-left: 1.8em;
+  padding-left: 1.1em;
   padding-bottom: 1em;
 }
 img#ruby {
-  float: left;
+  padding-left: 40px;
   padding-right: 15px;
   padding-bottom: 10px;
 }
-footer {
+img#clojure {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+img#javascript {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}footer {
   display: block;
   clear: both;
 }
 nav li {
   display: inline;
+}
+div.hide {
+  display: none;
+}
+div.content {
+  height: 500px;
+}
+div.content-wrapper {
+  height: 500px;
+}
+#organizers {
+  font-size: 80%;
 }
 footer a {
   -moz-border-radius:0.3em;
